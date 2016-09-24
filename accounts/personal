@@ -1,0 +1,11 @@
+# vim: ft=muttrc
+set from          = "dynamo.foss@gmail.com"
+set sendmail      = "/usr/bin/msmtp -a gmail"
+set mbox          = "+Personal/archive"
+set postponed     = "+Personal/drafts"
+
+color status green default
+
+macro index ,c "<change-folder>+Work/INBOX<return>" "change accounts"
+macro index D "<save-message>+Personal/trash<enter>" "move message to the trash"
+macro index S "<save-message>+Personal/spam<enter>"  "mark message as spam"

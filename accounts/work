@@ -1,0 +1,11 @@
+# vim: ft=muttrc
+set from          = "nam.td@zinza.com.vn"
+set sendmail      = "/usr/bin/msmtp -a gmail"
+set mbox          = "+Work/archive"
+set postponed     = "+Work/drafts"
+
+color status green default
+
+macro index ,c "<change-folder>+Temp/INBOX<return>" "change accounts"
+macro index D "<save-message>+Work/trash<enter>" "move message to the trash"
+macro index S "<save-message>+Work/spam<enter>"  "mark message as spam"

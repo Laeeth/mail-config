@@ -1,0 +1,7 @@
+# vim: ft=muttrc
+folder-hook Personal/* source ~/.mutt/accounts/personal
+folder-hook Temp/*     source ~/.mutt/accounts/temp
+folder-hook Work/*     source ~/.mutt/accounts/work
+folder-hook *          "exec collapse-all"
+
+source ~/.mutt/accounts/personal # default account
