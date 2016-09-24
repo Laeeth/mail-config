@@ -1,0 +1,8 @@
+/temp
+__pycache__
+*.kbd
+*.kbdx
+*.key
+*.pyc
+accounts/*.*
+accounts/password
