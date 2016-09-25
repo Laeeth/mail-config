@@ -1,6 +1,6 @@
 # vim: ft=muttrc
 set from          = "dynamo.foss@gmail.com"
-set sendmail      = "/usr/bin/msmtp -a gmail"
+set sendmail      = "/usr/bin/msmtp -a Personal"
 set mbox          = "+Personal/archive"
 set postponed     = "+Personal/drafts"
 
